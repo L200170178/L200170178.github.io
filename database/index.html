@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>index</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image:url(22.jpg);
+                background-size:cover;
+                background-attachment: fixed;
+            }
+        </style>
+        <p align="center"><font size="10" >PERINTAH SQL (Structured Query Language)  </font></p>
+    </br> </br> </br>
+        <p align="left"><font size="6" ><b>A. Perintah DDL (Data Definition Language)</b></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'> DDL adalah singkatan dari Data Definition Language yaitu kumpulan perintah pada SQL untuk menggambarkan desain dari database secara menyeluruh, selain itu DDL (Data Definition Language) juga digunakan untuk membuat, merubah maupun menghapus struktur atau definisi tipe data dari obyek yang ada pada database.</font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Berikut adalah perintah-perintah pada DDL (Data Definition Language) :</font></p>
+        <p align="justify"><font size='5' face='Time New Roman'><b>1. CREATE</b></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah ini digunakan untuk membuat, termasuk di antaranya membuat database baru, tabel baru, view baru, dan kolom.</font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>CREATE TABLE Buku_Perpus( id INTEGER PRIMARY KEY, kode_buku VARCHAR(20) NULL, judul_buku VARCHAR(225) NOT NULL, tanggal_terbit DATE NULL );</font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Pada contoh perintah di atas memiliki arti bahwa akan di buat suatu table baru bernama Buku_Perpus yang memiliki kolom entitas seperti id yang di beri primary key atau tidak bisa sama dengan data lainya, di sana akan di buat juga kolom Kode_buku dengan tipe data varchar yang memiliki kapasitas tampung sebanyak 20 karakter dan dapat di kosongkan dengan mencatumkan kode NULL, Selain itu ada juga Judul_buku yang bertipe data Varchar dengan kapasitas tampung 225 karakter dan tidak boleh kosong dengan kode NOT NULL. Terakhir ada tanggal_terbit dengan tipe data DATE dan boleh di kosongkan dengan kode NULL.</font></p>
+</br>
+       <p align="justify"><font size='5' face='Time New Roman'><b>2. ALTER</b></font></p> 
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah ini digunakan untuk mengubah struktur tabel yang telah dibuat. Pekerjaannya mencakup mengganti nama tabel, menambah kolom, mengubah kolom, menghapus kolom, maupun memberikan atribut pada kolom.</font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Alter TABLE Buku ADD Penulis Varchar(100);</font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah ini digunakan untuk mengubah struktur table, dimana akan di tambahkan sebuah kolom baru dengan nama Penulis dengan tipe data VARCHAR yang memiliki kapasitas 100 karakter dan akan di tambahkan pada table Buku.</font></p>
+</br>
+        <p align="justify"><font size='5' face='Time New Roman'><b>3. DROP</b></font></p> 
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah ini digunakan untuk menghapus database dan tabel.</font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>DROP TABLE Buku;</font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah ini berfungsi untuk menghapus, di sana di gunakan perintah utama DROP yang artinya menghilangkan, setelah perintah DROP di ikuti perintah TABLE yang artinya objek yang akan di hilangkan adalah TABLE, kemudian di ikuti dengan nama objeknya dengan jelas yaitu buku, sehingga perintahnya di baca Menghapus Table Buku.</font></p>
+</br>
+        <p align="justify"><font size='5' face='Time New Roman'><b>4. RENAME</b></font></p> 
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah yang digunakan untuk mengubah nama tabel. </font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>RENAME Buku TO Komik; </font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Pada contoh di atas  artinya mengubah nama tabel Buku menjadi Komik</font></p>
+</br>
+        <p align="justify"><font size='5' face='Time New Roman'><b>5. TRUNCATE </b></font></p> 
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah yang digunakan untuk menghapus semua baris/record dalam tabel dan melepaskan memori yang digunakan oleh tabel. </font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>TRUNCATE TABLE Buku; </font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Pada contoh di atas  artinya Buku adalah nama tabel yang akan dihapus seluruh datanya.</font></p>
+</br>
+
+        <p align="right"><a href="index2.html" target="_top"><font size='5' face='Time New Roman' color='blue'><b>Halaman Berikutnya</b></font></a></p><br>
+    </body>
+</html>
+

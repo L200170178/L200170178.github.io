@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>index2</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image:url(22.jpg);
+                background-size:cover;
+                background-attachment: fixed;
+            }
+        </style>
+        <p align="left"><font size="6" ><b>B. Perintah DML (Data Manipulation Language)</b></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Data Manipulation Language (DML) adalah sekumpulan elemen sintaks yang mirip dengan bahasa pemrograman komputer yang digunakan untuk memanipulasi data, misalnya memilih, memasukkan, menghapus dan memperbarui data yang ada di dalam database. Sebuah Data Manipulation Language yang terkenal adalah Structured Query Language (SQL), yang digunakan untuk mengambil dan memanipulasi data dalam database relasional. Bentuk lain dari DML adalah apa yang digunakan oleh IMS / DLI, CODASYL database, seperti IDMS dan lain-lain.</font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Berikut adalah perintah-perintah pada DDL (Data Manipulation Language) :</font></p>
+        <p align="justify"><font size='5' face='Time New Roman'><b>1. SELECT</b></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah yang paling sering digunakan pada SQL, sehingga kadang-kadang istilah query dirujukkan pada perintah select. Select digunakan untuk menampilkan data dari satu atau lebih tabel, biasanya dalam sebuah basis data yang sama.</font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>SELECT * FROM Buku;</font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah yang berfungsi untuk menapilkan data, di sana terdapat perintah utamanya adalah SELECT yang artinya menampilkan, kemudian di ikuti kode bintang yang artinya ‘semua’. Di ikuti kode FROM Buku yang memiliki arti dari Table Buku, Jika di baca secara lengkap akan berbunyi Menampilkan seluruh data yang terdapat pada table buku.</font></p>
+</br>
+       <p align="justify"><font size='5' face='Time New Roman'><b>2. UPDATE</b></font></p> 
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah digunakan untuk mengubah data yang sudah ada.</font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>UPDATE Buku SET Judul_buku = “Programmer” WHERE id = 123;</font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>perintah yang menggunakan kode utama UPDATE Buku yang artinya akan mengubah data yang sudah ada pada table buku, di ikuti dengan SET Judul_buku = ‘Programmer’, yang artinya data yang sudah ada akan di ubah dengan kata ‘Programmer’. lalu apa yang akan di ubah? yaitu terdapat pada kode terakhir WHERE id=’123′, judul buku yang akan di ubah dengan ‘programmer’ adalah judul buku yang memiliki id 123.</font></p>
+</br>
+        <p align="justify"><font size='5' face='Time New Roman'><b>3. INSERT</b></font></p> 
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah yang digunakan untuk menambah data baru.</font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>INSERT INTO Buku (id,kode_buku,judul_buku,tanggal_terbit) values(1124, 'KoD2', 'Desainer', '2013-01-11');</font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>kode yang berfungsi untuk menambahkan data, di sana terdapat fungsi INSERT INOT Buku, yang artinya data akan di masukan ke dalam table Buku yang di ikuti dengan nama-nama kolomnya secara urut. Kemudia di ikuti Values dengan isi data sesuai urutan nama kolomnya, terakhir di tutup dengan tanda petik dua pada setiap perintah SQL.</font></p>
+</br>
+        <p align="justify"><font size='5' face='Time New Roman'><b>3. DELETE</b></font></p> 
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah yang digunakan untuk menghapus sebuah data.</font></p>
+        <p align="justify" ><font size='6' face='Time New Roman' color='green'>Contoh : </font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>DELETE FROM mahasiswa;</font></p>
+        <p align="justify"><font size='6' face='Time New Roman' color='blue'><i>Penjelasan :</i></font></p>
+        <p align="justify"><font size='5' face='Time New Roman'>Perintah diatas akan menghapus semua data di tabel MAHASISWA.</font></p>
+        <p align="right"><a href="index.html" target="_top"><font size='5' face='Time New Roman' color='blue'><b>Kembali</b></font></a></p><br>
+    </body>
+</html>
+
